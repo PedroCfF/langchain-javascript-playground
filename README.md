@@ -65,7 +65,7 @@ npm start -- dist/basics/basic_chains.js
 npm start -- dist/basics/basic_agents.js
 ```
 
-4. Basic Memory:
+5. Basic Memory:
 ```bash
 npm start -- dist/basics/basic_memory.js
 ```
