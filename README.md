@@ -47,17 +47,27 @@ There are three main scripts that you can run:
 
 1. Basic LLMS:
 ```bash
-npm start -- dist/basic_llms.js
+npm start -- dist/basics/basic_llms.js
 ```
 
 2. Basic Prompts:
 ```bash
-npm start -- dist/basic_prompts.js
+npm start -- dist/basics/basic_prompts.js
 ```
 
 3. Basic Chains:
 ```bash
-npm start -- dist/basic_chains.js
+npm start -- dist/basics/basic_chains.js
+```
+
+4. Basic Agents:
+```bash
+npm start -- dist/basics/basic_agents.js
+```
+
+4. Basic Memory:
+```bash
+npm start -- dist/basics/basic_memory.js
 ```
 
 
@@ -66,10 +76,10 @@ npm start -- dist/basic_chains.js
 If you want to run the project in development mode without building it first, you can use the following command:
 
 ```bash
-npm run dev -- src/<script_name>.ts
+npm run dev -- src/basics/<script_name>.ts
 ```
 
-Replace `<script_name>` with the name of the script you want to run (e.g., `basic_llms`, `basic_prompts`, or `basic_chains`).
+Replace `<script_name>` with the name of the script you want to run (e.g., `basic_llms`, `basic_prompts`, `basic_chains`, etc).
 
 
 ## License
